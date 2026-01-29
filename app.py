@@ -28,13 +28,13 @@ with st.sidebar:
 
     # --- Model Configuration ---
     st.header("⚙️ Model Settings")
-    provider = st.selectbox("Select Provider", ["OpenAI (GPT-4o-mini)", "Ollama (Gemma 3) [LOCAL TESTING ONLY]"])
+    provider = st.selectbox("Select Provider", ["OpenAI (GPT-4o-mini)", "Ollama (Gemma 3)\n[FOR LOCAL TESTING ONLY]"])
     
     if provider == "OpenAI (GPT-4o-mini)":
         api_key = st.text_input("OpenAI API Key", type="password", value=os.getenv("OPENAI_API_KEY", ""))
     else:
         api_key = None
-        st.info("Ensure Ollama is running locally with Gemma 3 & Nomic-Embed-Text.")
+        st.error("Ensure Ollama is running locally with Gemma 3 & Nomic-Embed-Text.")
 
     uploaded_file = st.file_uploader("📂 Upload Product PDF", type="pdf")
     
