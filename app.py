@@ -14,7 +14,7 @@ from langchain_classic.chains import create_retrieval_chain
 st.set_page_config(page_title="Ken Lam's AI RAG Agent", layout="wide", page_icon="🤖")
 
 # --- UI Header & Personal Branding ---
-st.title("🤖 AI RAG Agent Demo by Ken Lam")
+st.title("🤖 Python AI RAG Agent Demo by Ken Lam")
 st.subheader("Interactive Product Knowledge Retrieval System")
 
 # --- Sidebar: Profile & Config ---
@@ -28,7 +28,7 @@ with st.sidebar:
 
     # --- Model Configuration ---
     st.header("⚙️ Model Settings")
-    provider = st.selectbox("Select Provider", ["Ollama (Gemma 3)", "OpenAI (GPT-4o-mini)"])
+    provider = st.selectbox("Select Provider", ["OpenAI (GPT-4o-mini)", "Ollama (Gemma 3) [LOCAL TESTING ONLY]"])
     
     if provider == "OpenAI (GPT-4o-mini)":
         api_key = st.text_input("OpenAI API Key", type="password", value=os.getenv("OPENAI_API_KEY", ""))
