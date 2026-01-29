@@ -2,6 +2,7 @@
 
 Developed by Ken Lam | 🔗 LinkedIn | 📧 Email
 
+
 📖 Project Overview
 This is a high-performance Retrieval-Augmented Generation (RAG) application built to assist retail specialists in navigating complex product catalogs. It allows users to upload technical PDFs and receive accurate, context-aware answers.
 
