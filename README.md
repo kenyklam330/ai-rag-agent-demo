@@ -1,10 +1,10 @@
-🤖 AI RAG Agent Demo
+🤖 Python AI RAG Agent Demo
 
 Developed by Ken Lam | 🔗 LinkedIn | 📧 Email
 
 
 📖 Project Overview
-This is a high-performance Retrieval-Augmented Generation (RAG) application built to assist retail specialists in navigating complex product catalogs. It allows users to upload technical PDFs and receive accurate, context-aware answers.
+This is a Retrieval-Augmented Generation (RAG) application built to assist retail specialists in navigating complex product catalogs. It allows users to upload technical PDFs and receive accurate, context-aware answers.
 
 ✨ Key Features
 Hybrid Provider Selection: Toggle seamlessly between Ollama (Gemma 3) for 100% local data privacy and OpenAI (GPT-4o-mini) for cloud-based reasoning.
