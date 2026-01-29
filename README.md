@@ -1,4 +1,4 @@
-🤖 AI RAG Agent
+🤖 AI RAG Agent Demo
 
 Developed by Ken Lam | 🔗 LinkedIn | 📧 Email
 
