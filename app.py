@@ -28,7 +28,7 @@ with st.sidebar:
 
     # --- Model Configuration ---
     st.header("⚙️ Model Settings")
-    provider = st.selectbox("Select Provider", ["OpenAI (GPT-4o-mini)", "Ollama (Gemma 3)\n[FOR LOCAL TESTING ONLY]"])
+    provider = st.selectbox("Select Provider", ["OpenAI (GPT-4o-mini) [API KEY REQUIRED]"]", "Ollama (Gemma 3) [FOR LOCAL TESTING ONLY]"])
     
     if provider == "OpenAI (GPT-4o-mini)":
         api_key = st.text_input("OpenAI API Key", type="password", value=os.getenv("OPENAI_API_KEY", ""))
